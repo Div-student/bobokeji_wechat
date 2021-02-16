@@ -1,0 +1,126 @@
+.imgItem{
+  width: 100%;
+  height: 100%;
+}
+.imgs{
+  height: 600rpx;
+}
+.bottomDsc{
+  box-sizing: border-box;
+  padding: 20rpx 10rpx;
+}
+.descript{
+  color: #666;
+  font-size: 28rpx;
+  font-weight: 500;
+}
+.priceWrap{
+  font-size: 40rpx;
+  font-weight: 600;
+}
+.forSalePrice{
+  color: red;
+  margin-right: 10rpx;
+}
+.icon{
+  font-size: 30rpx;
+  margin-right: 10rpx;
+}
+.priceText{
+  text-decoration: line-through;
+  color: #ccc;
+}
+.kucun{
+  float:right;
+}
+.kucunCount{
+  font-size: 40rpx;
+}
+.kucunText {
+  font-size: 30rpx;
+  color: #666;
+}
+.detailDsc{
+  padding: 20rpx 10rpx;
+}
+.detailDscTitle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30rpx;
+  border-bottom: 1px solid #ccc;
+  height: 80rpx;
+}
+.titleLeft{
+  color: #666;
+}
+.range{
+  color: red;
+}
+.viewAllCom{
+  color: #666;
+}
+.viewAllCom .iconfont{
+  margin-left: 10rpx;
+}
+.commentWrap{
+  border-bottom: 1px solid #ccc;
+  height: 300rpx;
+  display: flex;
+  align-items: center;
+}
+.picturesDetail{
+  height: 100vh;
+  padding-top: 60rpx;
+}
+.picturesDetail .imgsItem{
+  width: 100%;
+  height: 100%;
+}
+.productBottom{
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  height: 100rpx;
+  background: #fff;
+  align-items: center;
+  width: 100%;
+}
+.consultingService{
+  flex: 1;
+  background: red;
+  color: #fff;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
+}
+.exchange{
+  flex: 1;
+  background: #fff;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
+}
+.collection, .comments{
+  flex:1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.collection .activeHeart{
+  color: red;
+}
+.picturesDetailTitle{
+  color: #666;
+}
+.postComment{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+}

@@ -1,0 +1,16 @@
+<view class="rangeWrap">
+  <block wx:for='{{orderList}}' wx:key='_id'>
+   <view class="profileInfo itemWrap" bindtap="toProductDetail" data-productId="{{item.productId}}">
+      <view class="img">
+        <image src="{{item.productImage}}" class="photo"></image>
+        <view class="name">
+          <text class="userName">{{item.productName}}</text>
+          <text class="userScore">¥ {{item.forSalePrice}}</text>
+        </view>
+      </view>
+      <view class="reflash">
+        <text>{{item.verify?"已成交":"已下单"}}</text>
+      </view>
+    </view>
+  </block>
+</view>

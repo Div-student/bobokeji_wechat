@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "富豪榜",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light"
+}

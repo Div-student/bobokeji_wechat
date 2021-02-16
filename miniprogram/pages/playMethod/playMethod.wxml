@@ -1,0 +1,12 @@
+<view class="wrap">
+  <block wx:for='{{playList}}' wx:key="_id">
+    <view class="playDetail">
+      <view class="title">
+        {{item.title}}
+      </view>
+      <view class="content">
+        {{item.content}}
+      </view>
+    </view>
+  </block>
+</view>

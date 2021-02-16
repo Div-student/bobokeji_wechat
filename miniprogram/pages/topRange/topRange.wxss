@@ -1,0 +1,50 @@
+page{
+  background: rgb(228, 227, 227);
+}
+.rangeWrap{
+  padding: 10rpx;
+}
+.itemWrap{
+  background: #fff;
+  width: 100%;
+  margin-bottom: 20rpx;
+  padding: 0 30rpx;
+  border-radius: 16rpx;
+}
+.profileInfo{
+  height: 100rpx;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.img{
+  display: flex;
+}
+.photo{
+  height: 90rpx;
+  width: 90rpx;
+  background: red;
+}
+.name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10rpx;
+}
+.userName{
+  font-size: 30rpx;
+}
+.userScore{
+  font-size: 26rpx;
+  color: #666;
+}
+.btn{
+  background: #fff;
+  font-size: 20rpx;
+  font-weight: 400;
+  color: rgb(32, 32, 214);
+}
+.reflash{
+  font-size: 26rpx;
+  color: rgb(32, 32, 214);
+}

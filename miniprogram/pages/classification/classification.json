@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "search_bar":"../../components/searchBar/searchBar",
+    "classify_navy":"../../components/classifyNavy/classifyNavy"
+  },
+  "navigationBarTitleText": "分类"
+}

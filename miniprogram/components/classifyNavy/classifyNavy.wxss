@@ -1,0 +1,16 @@
+.navy{
+  height: 100%;
+  width: 180rpx;
+  margin-top: 20rpx;
+}
+.navyItem{
+  box-sizing: border-box;
+  margin-bottom: 40rpx;
+  justify-content: center;
+  display: flex;
+  font-size: 36rpx;
+  font-weight: 300;
+}
+.active{
+  border-left: 2px solid red;
+}

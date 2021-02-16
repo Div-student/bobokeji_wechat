@@ -1,0 +1,30 @@
+.wrap{
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  height: 400rpx;
+}
+.right{
+  flex: 1;
+  border: 1px solid #ccc;
+}
+.right .image {
+  width: 100%;
+  height: 100%;
+}
+.left{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.left .imgItem{
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+}
+.left .imgItem:first-child{
+  border-top: 1px solid #ccc;
+}
+.left .image{
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,13 @@
+<view class="wrap">
+  <view class="right">
+    <image class="image" src="{{imgList[0].url}}" data-productId="{{imgList[0].productId}}" mode="aspectFill" bindtap="clickLeft"></image>
+  </view>
+  <view class="left">
+    <view class="imgItem" >
+      <image class="image" src="{{imgList[1].url}}" mode="aspectFill" data-productId="{{imgList[1].productId}}" bindtap="clickRightTop"></image>
+    </view>
+    <view class="imgItem">
+      <image class="image" src="{{imgList[2].url}}" mode="aspectFill" data-productId="{{imgList[2].productId}}" bindtap="clickRightBottom" ></image>
+    </view>
+  </view>
+</view>

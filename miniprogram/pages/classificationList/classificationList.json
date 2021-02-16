@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "shopBoxBig": "../../components/shopBoxBig/shopBoxBig"
+  },
+  "navigationBarTitleText": "分类列表页面"
+}

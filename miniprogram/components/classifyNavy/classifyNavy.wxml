@@ -1,0 +1,5 @@
+<view class="navy">
+  <block wx:for="{{navyList}}" wx:key="value">
+    <view class="navyItem {{navyClassList[index]? 'active': ''}}" data-index="{{index}}" data-id="{{item.value}}"bindtap="clickItems">{{item.name}}</view>
+  </block>
+</view>

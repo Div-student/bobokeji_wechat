@@ -1,0 +1,106 @@
+{
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": false,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "useApiHostProcess": false
+  },
+  "appid": "wx5740cfc1ee869efc",
+  "projectname": "bobokeji",
+  "libVersion": "2.8.1",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+  "condition": {
+    "search": {
+      "list": []
+    },
+    "conversation": {
+      "list": []
+    },
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "id": 1,
+          "name": "pages/classificationList/classificationList",
+          "pathName": "pages/classificationList/classificationList",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "首页",
+          "pathName": "pages/fistPage/fistPage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "分类页面",
+          "pathName": "pages/classification/classification",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "详情页面",
+          "pathName": "pages/commendyDetail/commendyDetail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "我的",
+          "pathName": "pages/profie/profie",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

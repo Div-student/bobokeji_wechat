@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "inputWindow":"../../components/inputWindow/inputWindow"
+  },
+  "navigationBarTitleText": "我的"
+}

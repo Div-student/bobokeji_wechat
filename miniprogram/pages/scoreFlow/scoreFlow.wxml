@@ -1,0 +1,11 @@
+<view class="flowWrap">
+  <block wx:for="{{scoreList}}" wx:key="_id">
+    <view class="scoreItem">
+      <view class="scoreTime">{{item.creatTime}}</view>
+      <view class="scoreContent">
+        <text class="changeType">{{item.changeType}}</text>
+        <text class="changeScore">{{item.changeScore}}分</text>
+      </view>
+    </view>
+  </block>
+</view>

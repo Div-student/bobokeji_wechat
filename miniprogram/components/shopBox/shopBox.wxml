@@ -1,0 +1,11 @@
+<view class="boxWrap">
+  <view class="img">
+    <image class="image" src="{{commodity.url}}" mode="aspectFill"></image>
+  </view>
+  <view class="title">{{commodity.title}}</view>
+  <view class="discript">{{commodity.discript}}</view>
+  <view class="price">
+    <text>¥</text>
+    <text>{{commodity.price}}</text>
+  </view>
+</view>

@@ -1,0 +1,16 @@
+<view class="rangeWrap">
+  <block wx:for='{{collectionList}}' wx:key='_id'>
+   <view class="profileInfo itemWrap" bindtap="toProductDetail" data-productId="{{item.productId}}">
+      <view class="img">
+        <image src="{{item.productImage}}" class="photo"></image>
+        <view class="name">
+          <text class="userName">{{item.productName}}</text>
+          <text class="userScore">¥ {{item.price}}</text>
+        </view>
+      </view>
+      <view class="reflash">
+        <text>活动价格：¥{{item.forSalePrice}}</text>
+      </view>
+    </view>
+  </block>
+</view>

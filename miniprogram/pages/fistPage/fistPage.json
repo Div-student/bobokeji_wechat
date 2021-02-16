@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "three_cube":"../../components/threeCube/threeCube",
+    "title_show":"../../components/title/title",
+    "shop_box":"../../components/shopBox/shopBox"
+  },
+  "enablePullDownRefresh": true,
+  "navigationBarTextStyle": "black"
+}

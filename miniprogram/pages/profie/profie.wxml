@@ -1,0 +1,56 @@
+<view class="profileWrap">
+    <view class="profileInfo itemWrap">
+      <view class="img">
+        <image src="{{userInfo.avatarUrl}}" class="photo"></image>
+        <view class="name">
+          <text class="userName">{{userInfo.nickName || "***"}}</text>
+          <text class="userScore">累计积分：{{userInfo.score || 0}}</text>
+        </view>
+      </view>
+      <view class="reflash">
+        <button size="mini" class="btn" open-type="getUserInfo" bindgetuserinfo="on_getUserInfo"><i class='iconfont icon-refresh'></i>刷新</button>
+      </view>
+    </view>
+    <view class="vipNumb itemWrap">
+      <view class="vipTitle titleTop">我的VIP邀请码</view>
+      <view class="vipTitle">
+       <text class="vipContent" bindtap="copyNum">{{userInfo.vipNumber || "******"}}
+        <text class="copyNum" hidden="{{userInfo.vipNumber?false:true}}">复制邀请码</text>
+       </text>
+      </view>
+      <view class="vipTitle">
+        <button hidden="{{userInfo.upLevelName?true:false}}" class="writeBtn" open-type="getUserInfo" bindgetuserinfo="seletUserInfo">填写邀请码</button>
+        <view hidden="{{userInfo.upLevelName?false:true}}" class="writeBtn">我的邀请人：{{userInfo.upLevelName}}</view>
+      </view>
+    </view>
+    <view class="scoreDetail itemWrap" ></view>
+    <view class="decrip itemWrap">
+      <view class="range" bindtap="toRangeTop">
+        <text>积分榜</text>
+        <i class='iconfont icon-right-arrow'></i>
+        </view>
+      <view class="play" bindtap="toMethods">
+        <text>积分说明</text>
+        <i class='iconfont icon-right-arrow'></i>
+      </view>
+      <view class="scoreFlow" bindtap="toScoreFlow">
+        <text>积分明细</text>
+        <i class='iconfont icon-right-arrow'></i>
+      </view>
+      <view class="qrcode" bindtap="toQrcode">
+        <text>兑换二维码</text>
+        <i class='iconfont icon-right-arrow'></i>
+      </view>
+    </view>
+    <view class="decrip itemWrap">
+      <view class="range" bindtap="toMyOrder">
+        <text>我的订单</text>
+        <i class='iconfont icon-right-arrow'></i>
+        </view>
+      <view class="qrcode" bindtap="toMyCollection">
+        <text>我的收藏</text>
+        <i class='iconfont icon-right-arrow'></i>
+      </view>
+    </view>
+</view>
+<inputWindow isHidden="{{isHidden}}" bindgetInputValue="getInputValue"></inputWindow>

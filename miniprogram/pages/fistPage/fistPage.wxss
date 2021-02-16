@@ -1,0 +1,38 @@
+.imgItem image{
+  width: 100%;
+  height: 100%;
+}
+.imgWrap{
+  height: 400rpx;
+}
+.navigation{
+  width: 100%;
+  height: 200rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navyItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navyItem image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.hotZone{
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+.fixTop{
+  position: sticky;
+  background: #fff;
+  top: 0;
+}
+.placeHolder{
+  width: 360rpx;
+  height: 360rpx;
+}

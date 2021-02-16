@@ -1,0 +1,19 @@
+
+.wrap{
+  height: 100vh;
+  background: #ccc;
+}
+.playDetail{
+  background: #fff;
+  padding: 10rpx;
+  margin-top: 10rpx
+}
+.content{
+  color: #666;
+  font-size: 24rpx;
+  font-weight: 400;
+}
+.title{
+  font-weight: bold;
+  font-size: 30rpx;
+}

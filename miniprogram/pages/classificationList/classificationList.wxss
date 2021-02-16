@@ -1,0 +1,13 @@
+.commoditylist{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.placeHolder{
+  width: 360rpx;
+  height: 360rpx;
+}
+.classificationList{
+  margin-bottom: 10rpx;
+  box-shadow: 1px 3px 6px #ccc;
+}

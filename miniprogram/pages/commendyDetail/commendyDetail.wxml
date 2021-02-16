@@ -1,0 +1,57 @@
+<view>
+  <view class="productTop">
+    <swiper class="imgs" autoplay indicator-dots circular>
+      <block wx:for="{{productDetail.RotationImg}}" wx:key="*this">
+        <swiper-item>
+          <image class="imgItem" src="{{item}}" mode="scaleToFill"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+    <view class="bottomDsc">
+      <view class="productTitle">{{productDetail.productName}}</view>
+      <view class="descript">{{productDetail.productDsc}}</view>
+      <view class="priceWrap">
+        <text class="forSalePrice"> <text class="icon">¥</text>{{productDetail.forSalePrice}}</text>
+        <text class="price">
+          <text class="icon">¥</text >
+          <text class='priceText'>{{productDetail.price}}</text>
+        </text>
+        <text class="kucun">
+          <text class="kucunText">库存：</text>
+          <text class="kucunCount">{{productDetail.inventory}}</text>
+        </text>
+      </view>
+    </view>
+    <view class="detailDsc">
+      <view class="detailDscTitle"> 
+        <text class="titleLeft">评价</text>
+        <text class="valuAble">综合评分 <text class="range">{{productDetail.productScore}}</text> </text>
+        <view class="viewAllCom">
+          <text>查看全部{{productDetail.commentCount}}条评论</text> 
+          <i class='iconfont icon-arrow_right'></i>
+        </view>
+      </view>
+      <block wx:for="{{commentsList}}" wx:key="id">
+        <view class="commentWrap">
+          <comment productComment="{{item}}"></comment>
+        </view>
+      </block>
+      <view class="picturesDetail">
+        <text class="picturesDetailTitle">图文详情</text>
+        <block wx:for="{{productDetail.productIdDetailImg}}" wx:key="*this">
+          <image class="imgsItem" src="{{item}}"></image>
+        </block>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="productBottom" >
+  <view class="collection" bindtap="collectProduct">
+    <text class="iconfont icon-Heart activeHeart" hidden="{{!hiddenHeart}}"></text>
+    <text class="iconfont icon-heart" hidden="{{hiddenHeart}}"></text>
+    收藏
+  </view>
+  <view class="comments" bindtap="comments">评论</view>
+  <button type="mini" class="exchange" open-type="getUserInfo" bindgetuserinfo="on_exchange">免费兑换 </button>
+  <button class="consultingService" show-message-card='true' open-type="contact">立即咨询</button>
+</view>

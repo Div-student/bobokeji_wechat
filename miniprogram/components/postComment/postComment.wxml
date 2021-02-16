@@ -1,0 +1,27 @@
+<view class="commentWrap">
+  <view class="commentContent">
+    <textarea class="inputText" auto-height></textarea>
+  </view>
+  <view class="commentPics">
+    <view class="imgWrap">
+      <image class="imgs" src="cloud://bobokeji-dev.626f-bobokeji-dev-1304094918/productPic/product_lasd1.jpg"></image>
+      <view class="iconClass">
+        <i class='iconfont icon-exit'></i>
+      </view>
+    </view>
+  </view>
+  <view class="commentTools">
+    <view>
+      <label class="checkbox">
+        <checkbox class="checkboxItem" value="cb" checked="true"/>同时转发
+      </label>
+    </view>
+    <view class="addImg">
+      <i class="iconfont icon-pics"></i>
+    </view>
+    <view class="send">
+      <text class="sendText">3333</text>
+      <view class="sentBtn">发送</view>
+    </view>
+  </view>
+</view>

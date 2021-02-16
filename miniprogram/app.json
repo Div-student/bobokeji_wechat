@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/fistPage/fistPage",
+    "pages/classification/classification",
+    "pages/profie/profie",
+    "pages/classificationList/classificationList",
+    "pages/commendyDetail/commendyDetail",
+    "pages/topRange/topRange",
+    "pages/playMethod/playMethod",
+    "pages/scoreFlow/scoreFlow",
+    "pages/qrcode/qrcode",
+    "pages/myOrder/myOrder",
+    "pages/myCollection/myCollection"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "波波科技",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "selectedColor": "#ff2c4a",
+    "list": [
+      {
+        "pagePath": "pages/fistPage/fistPage",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-o.png"
+      },
+      {
+        "pagePath": "pages/classification/classification",
+        "text": "分类",
+        "iconPath": "images/category.png",
+        "selectedIconPath": "images/category-o.png"
+      },
+      {
+        "pagePath": "pages/profie/profie",
+        "text": "我的",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my-o.png"
+      }
+    ]
+  }
+}

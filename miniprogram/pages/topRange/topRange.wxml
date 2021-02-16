@@ -1,0 +1,15 @@
+<view class="rangeWrap">
+  <block wx:for='{{topRangList}}' wx:key='_id'>
+   <view class="profileInfo itemWrap">
+      <view class="img">
+        <image src="{{item.avatarUrl}}" class="photo"></image>
+        <view class="name">
+          <text class="userName">{{item.nickName}}</text>
+          <text class="userScore">累计积分：{{item.score}}</text>
+        </view>
+      </view>
+      <view class="reflash">
+      </view>
+    </view>
+  </block>
+</view>

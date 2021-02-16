@@ -1,0 +1,67 @@
+.commentWrap{
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 16rpx;
+}
+.commentPics{
+  width: 100%;
+  margin:10rpx 0;
+}
+.imgWrap{
+  width: 140rpx;
+  height: 140rpx;
+  position: relative;
+}
+.imgWrap .iconClass{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 0 0 0 20rpx;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .5);
+}
+.commentWrap .imgs{
+  width: 140rpx;
+  height: 100%;
+}
+.inputText{
+  min-height: 60rpx;
+  width: 100%;
+}
+.commentTools{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 60rpx;
+}
+.send{
+  display: flex;
+  align-items: center;
+}
+.send .sentBtn{
+  width: 140rpx;
+  height: 60rpx;
+  background: red;
+  color: #fff;
+  line-height: 60rpx;
+  text-align: center;
+  border-radius: 30rpx;
+  margin-left: 20rpx;
+}
+.sendText{
+  color: #666;
+}
+.addImg{
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+  font-size: 80rpx;
+}

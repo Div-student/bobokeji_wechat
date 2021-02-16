@@ -1,0 +1,15 @@
+.titleWrap{
+  width: 100%;
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleWrap .titleEn{
+    font-size: 20rpx;
+}
+.titleWrap .titleCn{
+    font-size: 40rpx;
+}

@@ -1,0 +1,7 @@
+
+<view class="commoditylist">
+  <block wx:for="{{commoditylist}}" wx:key="id">
+    <shopBoxBig data-productInfo='{{item}}' class="classificationList" commodity="{{item}}" bindtap="toDetail"></shopBoxBig>
+  </block>
+  <view class="placeHolder" hidden="{{showPlaceHolder}}"> </view>
+</view>

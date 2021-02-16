@@ -1,0 +1,58 @@
+.wrap{
+  overflow: hidden;
+}
+
+.content{
+  /* display: flex; */
+  /* flex-direction: row; */
+  height:calc(100vh - 80rpx);
+  display: flex;
+  border-top: 1px solid #ccc;
+} 
+.commodyList{
+  width: 100%;
+  padding-top: 20rpx;
+  border-left: 1px solid #ccc;
+  /* height: 100%; */
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow-y: auto;
+  align-content: flex-start;
+}
+.detailBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 260rpx;
+  height: 320rpx;
+  box-shadow: 4rpx 4rpx 8rpx #ccc;
+  margin-bottom: 10rpx;
+}
+.placeHolder{
+  width: 260rpx;
+  height: 320rpx;
+}
+.showImg{
+  width: 260rpx;
+  height: 260rpx;
+}
+.title{
+  font-size: 24rpx;
+  font-weight: 300;
+  margin-top: 10rpx;
+}
+.titlePrice{
+  font-size: 24rpx;
+  font-weight: 300;
+  color: red;
+  margin-right: 16rpx;
+}
+.subtitle{
+  font-size: 24rpx;
+  font-weight: 300;
+  color: #666;
+  text-decoration: line-through;
+}

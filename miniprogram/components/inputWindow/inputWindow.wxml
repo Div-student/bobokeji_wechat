@@ -1,0 +1,7 @@
+<view class="wrap" hidden="{{isHidden}}">
+  <view class="content">
+    <view class="title" bindtap="close"> <text>X</text> </view>
+    <view class="inputS"><input placeholder="请输入邀请码" bindinput="getInput"></input></view>
+    <view class="btn" bindtap="getInputValue"> <text>确定</text> </view>
+  </view>
+</view>

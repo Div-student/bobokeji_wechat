@@ -1,0 +1,30 @@
+.searchBar{
+  display: flex;
+  position: relative;
+  height: 80rpx;
+  align-items: center;
+  padding: 0 10rpx;
+}
+.fontClass{
+  position: absolute;
+  left: 20rpx;
+}
+.searchInput{
+  height: 60rpx;
+  padding-left: 55rpx;
+  border: 1px solid #ccc;
+  flex:5
+}
+.btn{
+  height: 60rpx;
+  flex: 1;
+  border-radius: 0;
+  border:1px solid red;
+  color:red;
+  font-size: 16rpx;
+  font-weight: 300;
+  margin-left: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

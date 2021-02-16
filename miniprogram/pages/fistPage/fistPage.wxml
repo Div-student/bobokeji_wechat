@@ -1,0 +1,31 @@
+<view class="body">
+  <!-- 轮播图 -->
+  <swiper class="imgWrap" indicator-dots="{{true}}" autoplay interval="{{interval}}" circular>
+    <block wx:for="{{topImgs}}" wx:key="_id">
+      <swiper-item class='imgItem' bindtap='skipDetailPage' data-commodityId="{{item.productId}}">
+        <image src="{{item.url}}" mode="aspectFill"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- 分类导航 -->
+  <view class="navigation {{isFixedTop? 'fixTop': ''}}" id="navigation">
+    <block wx:for="{{navyItems}}" wx:key="id">
+      <view class="navyItem" bindtap="toClassificationPage" data-title="{{item.title}}" data-titleValue="{{item.titleValue}}">
+        <image src="{{item.icon}}"></image>
+        <text>{{item.title}}</text>
+      </view>
+    </block>
+  </view>
+  <!-- 推荐区域 -->
+  <title_show title="{{title}}"></title_show>
+  <three_cube imgList="{{imgList}}"></three_cube>
+
+  <!-- 首页热销区 -->
+  <title_show title="{{hotTitle}}"></title_show>
+  <view class="hotZone">
+    <block wx:for="{{commoditylist}}" wx:key='id'>
+      <shop_box commodity='{{item}}' bindtap='toDetailPage' data-commodityInfo="{{item}}"></shop_box>
+    </block>
+    <view class="placeHolder" hidden="{{commoditylist.length%2 === 0}}"> </view>
+  </view>
+</view>

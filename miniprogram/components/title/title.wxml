@@ -1,0 +1,4 @@
+<view class="titleWrap">
+  <view class="titleCn">{{title.cn}}</view>
+  <view class="titleEn">{{title.en}}</view>
+</view>

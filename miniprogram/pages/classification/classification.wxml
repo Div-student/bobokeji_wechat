@@ -1,0 +1,19 @@
+<view class="wrap">
+  <search_bar icon-search='icon-search' iconfont="iconfont" bindsearchData="searchData"></search_bar>
+  <view class="content">
+    <classify_navy class="navyList" navyList="{{navyList}}" bindcurrentId="getCurrentId"></classify_navy>
+    <view class="commodyList">
+      <block wx:for='{{commedyList}}' wx:key='id'>
+        <view class="detailBox" bindtap="toDetailPage" data-productInfo="{{item}}">
+          <image class="showImg" src="{{item.url}}" mode="aspectFill"></image>
+          <text class="title">{{item.title}}</text>
+          <view>
+            <text class="titlePrice">¥ {{item.forSalePrice}}</text>
+            <text class="subtitle">¥ {{item.price}}</text>
+          </view>
+        </view>
+      </block>
+      <view class="placeHolder" hidden="{{commedyList.length%2 === 0}}"></view>
+    </view>
+  </view>
+</view>

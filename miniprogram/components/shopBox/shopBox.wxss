@@ -1,0 +1,29 @@
+.boxWrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 360rpx;
+}
+.boxWrap .img{
+  width: 360rpx;
+  height: 360rpx;
+}
+
+.boxWrap .img .image{
+  width: 100%;
+  height: 100%;
+}
+
+.boxWrap .title{
+  font-size: 28rpx;
+}
+.boxWrap .discript{
+  font-size: 26rpx;
+  font-weight: 300;
+}
+.boxWrap .price{
+  font-size: 26rpx;
+  color: red;
+  font-weight: 300;
+}

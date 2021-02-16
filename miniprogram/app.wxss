@@ -1,0 +1,7 @@
+@import './style/inconfont.wxss';
+/* 微信的初始化标签 */
+page,text,view,swiper,swiper-item,image,navigator{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

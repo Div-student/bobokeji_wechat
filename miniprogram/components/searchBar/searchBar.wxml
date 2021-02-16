@@ -1,0 +1,5 @@
+<view class="searchBar">
+  <i class="iconfont icon-search fontClass"></i>
+  <input class="searchInput" placeholder="请输入搜索内容" bindfocus="focusInput" bindblur="blurInput" bindinput='inputSearch'></input>
+  <button hidden="{{ishowBtn}}" class="btn" size="mini" bindtap="searchBtn" >搜索</button>
+</view>
